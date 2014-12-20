@@ -39,3 +39,18 @@ Diagrams help me in the way that I know which is the parent of every nodes in th
 branch and it helps me to visualize what could go wrong if I commit from a detached
 head and not creating a new branch before hand since it would result in the lost
 of the commit itself.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is that it makes new commit whose parents are
+the last commits from each branches merged and lies in the branch checked out.
+It is represented the way it is in the diagram because it is just like the branches
+commited are merged into the checked out branch, so the coins branch, for example,
+will merge into the master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+I think the pros of having an automatic mergin system from Git is that it is effortless
+to merge two or more commits. On the other hand, if we were to do this manually,
+it would be a lot of labour work from comparing to choosing which changes included
+and so on.
