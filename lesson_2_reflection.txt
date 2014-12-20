@@ -17,3 +17,25 @@ rather than it is added first to the staging area. I think the benefit it offers
 is giving the user flexibility to choose on what to commit. It is beneficial because
 users might not want to commit every file in their repositories since it might be
 private to be shared with others.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+To make sure I would have one commit per logical change is by using git add command
+to move the files/directories I want to commit from working directory to staging
+area. This is useful because what will be commited is the files/directories that
+are in the staging area, not working directory.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful if I want to make changes to my current project but not
+wanting it to be potentially harmful to my master project because it might be the
+case that my master/current project is buggy and I want to fix it, but I would 
+lose all of my progress on the change I'm planning to make if I commit my debug
+version.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help me in the way that I know which is the parent of every nodes in the
+branch and it helps me to visualize what could go wrong if I commit from a detached
+head and not creating a new branch before hand since it would result in the lost
+of the commit itself.
