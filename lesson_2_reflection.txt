@@ -1,56 +1,56 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-I think what happens is that it will track what are the files and directories in
-a given directory where git is initialized initially. So it would be like tracking
-from initially nothing to what are the files and directories in a given directory
-where git is initialised.
+  I think what happens is that it will track what are the files and directories in
+  a given directory where git is initialized initially. So it would be like tracking
+  from initially nothing to what are the files and directories in a given directory
+  where git is initialised.
 
-Why do I need to do it manually and not automatically done by Git is that I might
-have some files or directories that I dont want Git to track. So in order to do
-that, the only option is that I have to do it manually.
+  Why do I need to do it manually and not automatically done by Git is that I might
+  have some files or directories that I dont want Git to track. So in order to do
+  that, the only option is that I have to do it manually.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Staging area differs from working directory and repository in the sense that it
-is an intermediate between them. Working directory doesn't go straight to repository
-rather than it is added first to the staging area. I think the benefit it offers
-is giving the user flexibility to choose on what to commit. It is beneficial because
-users might not want to commit every file in their repositories since it might be
-private to be shared with others.
+  Staging area differs from working directory and repository in the sense that it
+  is an intermediate between them. Working directory doesn't go straight to repository
+  rather than it is added first to the staging area. I think the benefit it offers
+  is giving the user flexibility to choose on what to commit. It is beneficial because
+  users might not want to commit every file in their repositories since it might be
+  private to be shared with others.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-To make sure I would have one commit per logical change is by using git add command
-to move the files/directories I want to commit from working directory to staging
-area. This is useful because what will be commited is the files/directories that
-are in the staging area, not working directory.
+  To make sure I would have one commit per logical change is by using git add command
+  to move the files/directories I want to commit from working directory to staging
+  area. This is useful because what will be commited is the files/directories that
+  are in the staging area, not working directory.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-Branches would be helpful if I want to make changes to my current project but not
-wanting it to be potentially harmful to my master project because it might be the
-case that my master/current project is buggy and I want to fix it, but I would 
-lose all of my progress on the change I'm planning to make if I commit my debug
-version.
+  Branches would be helpful if I want to make changes to my current project but not
+  wanting it to be potentially harmful to my master project because it might be the
+  case that my master/current project is buggy and I want to fix it, but I would 
+  lose all of my progress on the change I'm planning to make if I commit my debug
+  version.
 
 How do the diagrams help you visualize the branch structure?
 
-Diagrams help me in the way that I know which is the parent of every nodes in the
-branch and it helps me to visualize what could go wrong if I commit from a detached
-head and not creating a new branch before hand since it would result in the lost
-of the commit itself.
+  Diagrams help me in the way that I know which is the parent of every nodes in the
+  branch and it helps me to visualize what could go wrong if I commit from a detached
+  head and not creating a new branch before hand since it would result in the lost
+  of the commit itself.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-The result of merging two branches is that it makes new commit whose parents are
-the last commits from each branches merged and lies in the branch checked out.
-It is represented the way it is in the diagram because it is just like the branches
-commited are merged into the checked out branch, so the coins branch, for example,
-will merge into the master branch.
+  The result of merging two branches is that it makes new commit whose parents are
+  the last commits from each branches merged and lies in the branch checked out.
+  It is represented the way it is in the diagram because it is just like the branches
+  commited are merged into the checked out branch, so the coins branch, for example,
+  will merge into the master branch.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-I think the pros of having an automatic mergin system from Git is that it is effortless
-to merge two or more commits. On the other hand, if we were to do this manually,
-it would be a lot of labour work from comparing to choosing which changes included
-and so on.
+  I think the pros of having an automatic mergin system from Git is that it is effortless
+  to merge two or more commits. On the other hand, if we were to do this manually,
+  it would be a lot of labour work from comparing to choosing which changes included
+  and so on.
